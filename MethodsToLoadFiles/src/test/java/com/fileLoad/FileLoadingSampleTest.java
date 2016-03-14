@@ -1,6 +1,6 @@
 package com.fileLoad;
 
-import com.fileLoaders.FileLoader;
+import com.sdm.fileLoaders.FileLoader;
 import org.apache.commons.configuration.Configuration;
 import org.testng.annotations.Test;
 
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
-public class FileLoadingSample {
+public class FileLoadingSampleTest {
     @Test
     public void LoadFileUsingApacheConfig() {
         Configuration configuration = new FileLoader().LoadFileUsingApacheConfiguration();

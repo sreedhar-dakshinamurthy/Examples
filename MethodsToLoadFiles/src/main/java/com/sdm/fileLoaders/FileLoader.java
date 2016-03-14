@@ -1,4 +1,4 @@
-package com.fileLoaders;
+package com.sdm.fileLoaders;
 
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationException;
@@ -7,7 +7,6 @@ import org.yaml.snakeyaml.Yaml;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
 
